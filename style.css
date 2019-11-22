@@ -1,0 +1,43 @@
+body {
+	background: black;
+	margin: 0;
+    font-family: 'Spectral SC', serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #fff;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0;	
+}
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1200 px;
+	margin: 0 auto;
+}
+/* Intro */
+.intro {
+	width: 100%;
+	background:
+	url("../images/main.jpg") center no-repeat;
+	background-size: cover;
+	
+
+}
+/* Header */
+.header {
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.header__logo {
+	font-size: 30 px;
+	font-weight: 700;
+	color: #fff;
